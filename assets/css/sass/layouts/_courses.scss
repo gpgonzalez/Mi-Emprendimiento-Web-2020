@@ -1,0 +1,39 @@
+//Layout - Courses
+.courses{
+  &__row{
+    padding: 5px;
+    border: gray 2px solid;
+  }
+  &__separator{
+    background-color: $colors-black;
+    color: $colors-white;
+    font-weight: bold;
+  }
+}
+.course{
+  margin-top: 5px;
+  padding: 10px;
+  border: lightgray 2px solid;
+  &__img{
+    width: 100%;
+    &--logo{
+      width: auto;
+      height: 100%;
+    }
+    &--logo-animado{
+      height: 40vh;
+    }
+  }
+  &__logo-container{
+    height: 20vh;
+  }
+  &__rrss-container{
+    & a {
+      color: $colors-black !important;
+    }
+  }
+  & i{
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+  }
+}

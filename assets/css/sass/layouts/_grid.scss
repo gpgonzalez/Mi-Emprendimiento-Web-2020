@@ -1,0 +1,42 @@
+//Layout - Grid
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 15px;
+}
+//bucle para grid-1 a grid-12
+@for $i from 1 through 12 {
+  .grid-#{$i} {
+    grid-column: span ($i);
+  }
+}
+
+//respuesta para varios breakpoints
+@include respond-to('small') {
+  @for $i from 1 through 12 {
+    .grid-sm-#{$i} {
+      grid-column: span ($i);
+    }
+  }
+}
+@include respond-to('medium') {
+  @for $i from 1 through 12 {
+    .grid-md-#{$i} {
+      grid-column: span ($i);
+    }
+  }
+}
+@include respond-to('large') {
+  @for $i from 1 through 12 {
+    .grid-lg-#{$i} {
+      grid-column: span ($i);
+    }
+  }
+}
+@include respond-to('extralarge') {
+  @for $i from 1 through 12 {
+    .grid-xl-#{$i} {
+      grid-column: span ($i);
+    }
+  }
+}

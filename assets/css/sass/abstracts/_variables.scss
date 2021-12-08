@@ -1,0 +1,30 @@
+$colors-white: #FFF;
+$colors-black: #001614;
+$colors-sable: #060606;
+$colors-charcoal: #2E1503;
+$colors-tangerine: #FFAF6D;
+$colors-orange: #FFA500;
+
+
+$fonts-primary: 'Ubuntu', sans-serif;
+$fonts-secondary: 'Poppins', sans-serif;
+
+$fonts-size-xxxxx-large: 50px;
+$fonts-size-xxxx-large: 45px;
+$fonts-size-xxx-large: 40px;
+$fonts-size-xx-large: 35px;
+$fonts-size-x-large: 30px;
+$fonts-size-large: 20px;
+$fonts-size-medium: 16px;
+$fonts-size-small: 14px;
+$fonts-size-x-small: 12px;
+
+$min-laptop: 768px;
+$min-phone: 576px;
+
+$breakpoints: (
+        'small': (min-width: 576px),
+        'medium': (min-width: 768px),
+        'large': (min-width: 992px),
+        'extralarge': (min-width: 1200px),
+);

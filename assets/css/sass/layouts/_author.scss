@@ -1,0 +1,25 @@
+//Layouts - Author
+.author{
+  &__img-small{
+    width: 15vh;
+    height: auto;
+  }
+  &__title{
+    font-weight: bold;
+  }
+  &__subtitle{
+    color: $gray;
+  }
+  &__btn{
+    &--blue{
+      background-color:$sky-blue;
+    }
+    &--red{
+      background: $persimmon;
+    }
+  }
+}
+.btn{
+  color: $white;
+  border-radius: 0;
+}

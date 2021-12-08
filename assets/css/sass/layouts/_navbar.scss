@@ -1,0 +1,17 @@
+.navbar{
+  &__title{
+    font-weight: bold;
+  }
+  &__logo{
+    font-size: $fonts-size-x-small;
+    top: -2em;
+  }
+}
+
+button.navbar-toggler {
+  background-color: bg-dark;
+  &:hover {
+    background-color: $colors-orange;
+  }
+    
+}

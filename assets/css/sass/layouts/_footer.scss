@@ -1,0 +1,8 @@
+//Layouts - Footer
+.footer{
+  background-color: $colors-black;
+  &__links {
+    color: $colors-white !important;
+    text-decoration: none !important;
+  }
+}

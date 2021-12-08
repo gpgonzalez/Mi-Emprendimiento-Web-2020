@@ -1,0 +1,7 @@
+//Components - Inputs
+.input{
+    background-color: $colors-white;
+    &:focus{
+      background-color: $colors-orange;
+    }
+  }

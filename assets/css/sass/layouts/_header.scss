@@ -1,0 +1,13 @@
+// layout header
+.header{
+  background-image: url('../img/desarrolloweb2021t.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25vh;
+  @include phone-view{
+    height: 25vh;
+  }
+  @include laptop-view{
+    height: 35vh;
+  }
+}
